@@ -20,6 +20,7 @@
  */
 package gs.spri.raven;
 
+import gs.spri.raven.core.RavenAuthenticationException;
 import gs.spri.raven.core.RavenException;
 import gs.spri.raven.core.RavenStateException;
 import gs.spri.raven.core.Token;

@@ -21,7 +21,6 @@
 package gs.spri.raven.core;
 
 import static java.net.HttpURLConnection.HTTP_OK;
-import gs.spri.raven.RavenAuthenticationException;
 
 import java.security.InvalidKeyException;
 import java.security.KeyStore;
