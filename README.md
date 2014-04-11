@@ -19,3 +19,4 @@ To add as a dependency to your maven project use:
   <version>1.0.4</version>
 </dependency>
 ```
+This library is released under the GPL v2 and includes contributions from Matthew Lavy, Alistair Turnbull and Tom Oinn.
