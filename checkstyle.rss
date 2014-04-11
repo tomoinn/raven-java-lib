@@ -9,7 +9,7 @@
     <copyright>&#169;2014</copyright>
     <item>
       <title>File: 9,
-             Errors: 810,
+             Errors: 811,
              Warnings: 0,
              Infos: 0
       </title>
@@ -66,12 +66,12 @@
                   0
                 </td>
                 <td>
-                  131
+                  132
                 </td>
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tomoinn/raven-java-lib/checkstyle.html#gs.spri.raven.RavenAuthenticationException.java">gs/spri/raven/RavenAuthenticationException.java</a>
+                  <a href="https://github.com/tomoinn/raven-java-lib/checkstyle.html#gs.spri.raven.core.RavenAuthenticationException.java">gs/spri/raven/core/RavenAuthenticationException.java</a>
                 </td>
                 <td>
                   0
