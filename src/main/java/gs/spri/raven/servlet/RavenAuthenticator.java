@@ -18,14 +18,13 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307
  * USA
  */
-package gs.spri.raven;
+package gs.spri.raven.servlet;
 
-import gs.spri.raven.core.Authenticator;
-import gs.spri.raven.core.RavenAuthenticationException;
-import gs.spri.raven.core.RavenException;
-import gs.spri.raven.core.RavenStateException;
-import gs.spri.raven.core.Request;
-import gs.spri.raven.core.Token;
+import gs.spri.raven.Authenticator;
+import gs.spri.raven.RavenAuthenticationException;
+import gs.spri.raven.RavenException;
+import gs.spri.raven.Request;
+import gs.spri.raven.Token;
 
 import java.io.IOException;
 import java.net.URL;
@@ -229,11 +228,22 @@ public class RavenAuthenticator {
      */
     public boolean isTokenValid() {
 	try {
-	    auth.validateTokenAgainstRequest(this.request, this.token);
+	    this.checkTokenValid();
 	    return true;
 	} catch (RavenException xoov) {
 	    return false;
 	}
+    }
+
+    /**
+     * If 'this.getToken()' is valid this method does nothing. Otherwise, it
+     * throws a RavenException identifying the problem. For the purposes of this
+     * method, "valid" means in particular that 'this.getToken()' exists,
+     * 'this.getToken().status==200', the authentication method matches that
+     * requested and that the cryptographic signature is correct.
+     */
+    public void checkTokenValid() throws RavenException {
+	this.auth.validateTokenAgainstRequest(this.request, this.token);
     }
 
     /**

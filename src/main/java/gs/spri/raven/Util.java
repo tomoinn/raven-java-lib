@@ -18,7 +18,7 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307
  * USA
  */
-package gs.spri.raven.core;
+package gs.spri.raven;
 
 import java.io.ByteArrayOutputStream;
 import java.io.UnsupportedEncodingException;

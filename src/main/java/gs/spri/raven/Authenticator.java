@@ -18,7 +18,7 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307
  * USA
  */
-package gs.spri.raven.core;
+package gs.spri.raven;
 
 import static java.net.HttpURLConnection.HTTP_OK;
 
@@ -91,9 +91,9 @@ public final class Authenticator {
     }
 
     /**
-     * Validates a token and request object, using the configured key-store to
-     * do cryptographic verification of the token and checking against the
-     * request object to ensure that the token is one that matches the request.
+     * Validates a Token and Request object, using the configured KeyStore to
+     * do cryptographic verification of the Token and checking against the
+     * Request object to ensure that the Token is one that matches the Request.
      * 
      * @throws RavenException
      *             if any validation failures occur.

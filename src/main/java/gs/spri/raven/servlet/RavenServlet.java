@@ -18,12 +18,11 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307
  * USA
  */
-package gs.spri.raven;
+package gs.spri.raven.servlet;
 
-import gs.spri.raven.core.RavenAuthenticationException;
-import gs.spri.raven.core.RavenException;
-import gs.spri.raven.core.RavenStateException;
-import gs.spri.raven.core.Token;
+import gs.spri.raven.RavenAuthenticationException;
+import gs.spri.raven.RavenException;
+import gs.spri.raven.Token;
 
 import java.io.FileInputStream;
 import java.io.IOException;

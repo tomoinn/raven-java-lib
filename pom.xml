@@ -4,11 +4,11 @@
 
 	<groupId>gs.spri</groupId>
 	<artifactId>rslib</artifactId>
-	<version>1.0.4</version>
+	<version>2.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>rslib</name>
-	<description>Java client library used when authenticating against the University of Cambridge's single sign-on system 'Raven'</description>
+	<name>Raven servlet library</name>
+	<description>Java client library used when authenticating against the University of Cambridge's single sign-on system 'Raven'.</description>
 	<url>https://github.com/tomoinn/raven-java-lib</url>
 
 	<licenses>
@@ -33,15 +33,23 @@
 			<id>tomoinn</id>
 		</developer>
 		<developer>
-		    <email></email>
-		    <name>Alistair Turnbull</name>
-		    <url></url>
-		    <id>apt1002</id>
+			<email>rslib@minworks.co.uk</email>
+			<name>Alistair Turnbull</name>
+			<url>http://www.minworks.co.uk</url>
+			<id>apt1002</id>
+		</developer>
+		<developer>
+			<email></email>
+			<name>Matthew Lavy</name>
+			<url></url>
+			<id></id>
 		</developer>
 	</developers>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<!-- Used by the github plugin when uploading the generated website. If you wish to upload your own version of the site 
+			to a forked github repository you must define a corresponding server in your settings.xml for this to have any effect. -->
 		<github.global.server>github</github.global.server>
 	</properties>
 

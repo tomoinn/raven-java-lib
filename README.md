@@ -16,7 +16,7 @@ To add as a dependency to your maven project use:
 <dependency>
   <groupId>gs.spri</groupId>
   <artifactId>rslib</artifactId>
-  <version>1.0.4</version>
+  <version>2.0-SNAPSHOT</version>
 </dependency>
 ```
-This library is released under the GPL v2 and includes contributions from Matthew Lavy, Alistair Turnbull and Tom Oinn.
+This library is released under the GPL v2 and includes contributions from Matthew Lavy, Alistair Turnbull and Tom Oinn. It is inspired by code from the [Java Raven Toolkit](http://raven.cam.ac.uk/project/java-toolkit/).

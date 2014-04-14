@@ -18,24 +18,27 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307
  * USA
  */
-package gs.spri.raven.core;
+package gs.spri.raven.servlet;
+
+import gs.spri.raven.RavenException;
 
 /**
- * An Exception thrown by RavenAuthenticator to indicate unsuccessful
- * authentication.
+ * A RavenException that is thrown because Raven found itself at the wrong point
+ * in its state machine. This can happen for example if the user bookmarks the
+ * Raven login page.
  * 
  * @author Matthew Lavy and Alistair Turnbull
- * @version 1.0, 31 August 2005
+ * @version 1.0.3, 02 January 2007
  */
-public class RavenException extends Exception {
+public class RavenStateException extends RavenException {
 
-    private static final long serialVersionUID = -7135272612559716224L;
+    private static final long serialVersionUID = 19721730666423750L;
 
-    public RavenException() {
+    public RavenStateException() {
 	super();
     }
 
-    public RavenException(String msg) {
+    public RavenStateException(String msg) {
 	super(msg);
     }
 }
