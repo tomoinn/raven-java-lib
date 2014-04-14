@@ -2,14 +2,14 @@
 
 <rss version="0.91">
   <channel>
-    <title>rslib - Checkstyle report</title>
+    <title>Raven servlet library - Checkstyle report</title>
     <link>https://github.com/tomoinn/raven-java-lib</link>
-    <description>rslib - Checkstyle report</description>
+    <description>Raven servlet library - Checkstyle report</description>
     <language>en-us</language>
     <copyright>&#169;2014</copyright>
     <item>
       <title>File: 9,
-             Errors: 811,
+             Errors: 814,
              Warnings: 0,
              Infos: 0
       </title>
@@ -29,7 +29,7 @@
           <tbody>
                           <tr>
                 <td>
-                  <a href="https://github.com/tomoinn/raven-java-lib/checkstyle.html#gs.spri.raven.core.Util.java">gs/spri/raven/core/Util.java</a>
+                  <a href="https://github.com/tomoinn/raven-java-lib/checkstyle.html#gs.spri.raven.Authenticator.java">gs/spri/raven/Authenticator.java</a>
                 </td>
                 <td>
                   0
@@ -38,12 +38,12 @@
                   0
                 </td>
                 <td>
-                  126
+                  112
                 </td>
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tomoinn/raven-java-lib/checkstyle.html#gs.spri.raven.core.RavenStateException.java">gs/spri/raven/core/RavenStateException.java</a>
+                  <a href="https://github.com/tomoinn/raven-java-lib/checkstyle.html#gs.spri.raven.servlet.RavenAuthenticator.java">gs/spri/raven/servlet/RavenAuthenticator.java</a>
                 </td>
                 <td>
                   0
@@ -52,26 +52,12 @@
                   0
                 </td>
                 <td>
-                  7
+                  135
                 </td>
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tomoinn/raven-java-lib/checkstyle.html#gs.spri.raven.RavenAuthenticator.java">gs/spri/raven/RavenAuthenticator.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  132
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/tomoinn/raven-java-lib/checkstyle.html#gs.spri.raven.core.RavenAuthenticationException.java">gs/spri/raven/core/RavenAuthenticationException.java</a>
+                  <a href="https://github.com/tomoinn/raven-java-lib/checkstyle.html#gs.spri.raven.RavenAuthenticationException.java">gs/spri/raven/RavenAuthenticationException.java</a>
                 </td>
                 <td>
                   0
@@ -85,21 +71,7 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tomoinn/raven-java-lib/checkstyle.html#gs.spri.raven.core.Token.java">gs/spri/raven/core/Token.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  116
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/tomoinn/raven-java-lib/checkstyle.html#gs.spri.raven.core.RavenException.java">gs/spri/raven/core/RavenException.java</a>
+                  <a href="https://github.com/tomoinn/raven-java-lib/checkstyle.html#gs.spri.raven.RavenException.java">gs/spri/raven/RavenException.java</a>
                 </td>
                 <td>
                   0
@@ -113,21 +85,7 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tomoinn/raven-java-lib/checkstyle.html#gs.spri.raven.RavenServlet.java">gs/spri/raven/RavenServlet.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  201
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/tomoinn/raven-java-lib/checkstyle.html#gs.spri.raven.core.Request.java">gs/spri/raven/core/Request.java</a>
+                  <a href="https://github.com/tomoinn/raven-java-lib/checkstyle.html#gs.spri.raven.Request.java">gs/spri/raven/Request.java</a>
                 </td>
                 <td>
                   0
@@ -141,7 +99,7 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/tomoinn/raven-java-lib/checkstyle.html#gs.spri.raven.core.Authenticator.java">gs/spri/raven/core/Authenticator.java</a>
+                  <a href="https://github.com/tomoinn/raven-java-lib/checkstyle.html#gs.spri.raven.Token.java">gs/spri/raven/Token.java</a>
                 </td>
                 <td>
                   0
@@ -150,7 +108,49 @@
                   0
                 </td>
                 <td>
-                  112
+                  116
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/tomoinn/raven-java-lib/checkstyle.html#gs.spri.raven.servlet.RavenServlet.java">gs/spri/raven/servlet/RavenServlet.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  201
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/tomoinn/raven-java-lib/checkstyle.html#gs.spri.raven.Util.java">gs/spri/raven/Util.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  126
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/tomoinn/raven-java-lib/checkstyle.html#gs.spri.raven.servlet.RavenStateException.java">gs/spri/raven/servlet/RavenStateException.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  7
                 </td>
               </tr>
                       </tbody>

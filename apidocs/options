@@ -15,10 +15,10 @@
 -docencoding
 'UTF-8'
 -doctitle
-'rslib 1.0.4 API'
+'Raven servlet library 2.0-SNAPSHOT API'
 -link
 'http://java.sun.com/javase/6/docs/api'
 -use
 -version
 -windowtitle
-'rslib 1.0.4 API'
+'Raven servlet library 2.0-SNAPSHOT API'
